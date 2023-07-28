@@ -1,0 +1,45 @@
+[2023-07-28 05:35:54] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-28 05:35:54] [1] [INFO] TEST [Default test - testInvalidCredentials] STARTED at [00:35:54 2023-07-28]
+[2023-07-28 05:35:56] [1] [INFO] Request method:	GET
+Request URI:	https://api.unsplash.com/topics?client_id=obfuscation1GoOiEIU2GkysSu_0E20hrnQv94yqXz_xr7Qxgf_yzM
+Request params:	client_id=obfuscation1GoOiEIU2GkysSu_0E20hrnQv94yqXz_xr7Qxgf_yzM
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Connection: keep-alive
+Server: Cowboy
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+Access-Control-Request-Method: *
+Access-Control-Allow-Headers: *
+Access-Control-Expose-Headers: Link,X-Total,X-Per-Page,X-RateLimit-Limit,X-RateLimit-Remaining
+X-Powered-By: hero-app
+Content-Language: en
+Cache-Control: no-cache
+X-Request-Id: f2c8170b-28ee-4b9f-b9e8-27eadefdf57b
+X-Runtime: 0.012389
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Via: 1.1 vegur, 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Fri, 28 Jul 2023 05:35:56 GMT
+X-Served-By: cache-iad-kcgs7200096-IAD, cache-iah17244-IAH
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1690522556.296210,VS0,VE49
+Vary: Accept-Encoding,Authorization,Accept-Language,Accept
+transfer-encoding: chunked
+
+{
+    "errors": [
+        "OAuth error: The access token is invalid"
+    ]
+}
+
+[2023-07-28 05:35:56] [1] [INFO] TEST [Default test - testInvalidCredentials] PASSED at [00:35:56 2023-07-28]

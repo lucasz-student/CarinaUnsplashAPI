@@ -10,14 +10,14 @@ import com.zebrunner.carina.utils.config.Configuration;
 
 @Endpoint(url = "${base_url}${get_extension}", methodType = HttpMethodType.GET)
 @ResponseTemplatePath(path = "api/users/_get/rs.json")
-@SuccessfulHttpStatus(status = HttpResponseStatusType.OK_200)
-public class GetUserMethods extends AbstractApiMethodV2 {
+@SuccessfulHttpStatus(status = HttpResponseStatusType.UNAUTHORIZED_401)
+public class InvalidGetUserMethods extends AbstractApiMethodV2 {
 	
-    public GetUserMethods() {
+    public InvalidGetUserMethods() {
     	replaceUrlPlaceholder("base_url", Configuration.getRequired("api_url"));
     }
 
-    public GetUserMethods(String envVariable) {
+    public InvalidGetUserMethods(String envVariable) {
     	replaceUrlPlaceholder("base_url", Configuration.getRequired("api_url"));
     	if (envVariable == "photo") {
     		replaceUrlPlaceholder("get_extension", Configuration.getRequired("photo_ext"));
