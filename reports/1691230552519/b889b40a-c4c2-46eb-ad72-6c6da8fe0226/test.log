@@ -1,0 +1,71 @@
+[2023-08-05 10:15:55] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-08-05 10:15:55] [1] [INFO] TEST [Default test - testValidateNavigationBarLinkColors] STARTED at [05:15:55 2023-08-05]
+[2023-08-05 10:15:55] [1] [INFO] Starting driver session...
+[2023-08-05 10:15:58] [1] [INFO] Driver session started.
+[2023-08-05 10:15:58] [1] [INFO] INFO: opening url 'http://zebrunner.github.io/carina/'
+[2023-08-05 10:15:59] [1] [INFO] PASS: element 'navBarLinks0' is clicked.
+[2023-08-05 10:16:00] [1] [ERROR] TEST [Default test - testValidateNavigationBarLinkColors] FAILED at [05:16:00 2023-08-05] - The element with the reference 6afa5f37-213a-4f80-b73f-156dfa8ce856 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0a2b342e-e227-4278-b080-4b82373c99db, getElementValueOfCssProperty {id=6afa5f37-213a-4f80-b73f-156dfa8ce856, propertyName=color}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.1, moz:accessibilityChecks: false, moz:buildID: 20230803114611, moz:debuggerAddress: 127.0.0.1:13342, moz:firefoxOptions: {profile: UEsDBBQACAgIAPspBVcAAAAAAAA...}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 35340, moz:profile: C:\Users\lucas\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.56.1:4444/sess..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[[[RemoteWebDriver: firefox on Windows 10 (0a2b342e-e227-4278-b080-4b82373c99db)] -> xpath: /html/body/div[3]/main/div/div[1]/div/div/nav]] -> xpath: ./ul//li]
+Session ID: 0a2b342e-e227-4278-b080-4b82373c99db
+
+java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+com.zebrunner.carina.webdriver.listener.EventFiringSeleniumCommandExecutor.execute(EventFiringSeleniumCommandExecutor.java:52)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+org.openqa.selenium.remote.RemoteWebElement.getCssValue(RemoteWebElement.java:213)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
+org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
+net.bytebuddy.renamed.java.lang.Object$ByteBuddy$XnTF3XA3.getCssValue(Unknown Source)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+com.zebrunner.carina.webdriver.locator.internal.LocatingListsElementHandler.invoke(LocatingListsElementHandler.java:44)
+jdk.proxy2/jdk.proxy2.$Proxy91.getCssValue(Unknown Source)
+com.solvd.laba.carina.demo.gui.carinaDocsPages.desktop.OverviewPage.lambda$2(OverviewPage.java:149)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+com.zebrunner.carina.webdriver.locator.internal.LocatingListHandler.invoke(LocatingListHandler.java:102)
+jdk.proxy2/jdk.proxy2.$Proxy92.forEach(Unknown Source)
+com.solvd.laba.carina.demo.gui.carinaDocsPages.desktop.OverviewPage.clickEveryNavLinkAndValidateColors(OverviewPage.java:147)
+com.solvd.laba.carina.carinaDocsWebTests.HeaderValidationTest.testValidateNavigationBarLinkColors(HeaderValidationTest.java:76)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)

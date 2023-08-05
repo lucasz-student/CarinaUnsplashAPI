@@ -1,0 +1,62 @@
+[2023-08-05 10:20:13] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=http://zebrunner.github.io/carina/
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=firefox
+===============================================
+
+[2023-08-05 10:20:13] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 10:20:15] [1] [INFO] [TestNG] Running:
+  C:\Users\lucas\AppData\Local\Temp\testng-eclipse-603286104\testng-customsuite.xml
+
+[2023-08-05 10:20:15] [1] [INFO] Set thread-count=1
+[2023-08-05 10:20:15] [1] [INFO] Set data-provider-thread-count=1
+[2023-08-05 10:20:15] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-08-05 10:20:15] [1] [INFO] [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+[2023-08-05 10:20:23] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-08-05 10:20:23] [1] [INFO] RESULT #1: TEST [Default test - testValidateNavigationBarLinkColors] FAIL [screenshots=file://C:\Users\lucas\OneDrive\Desktop\api-testing\unsplash-api-testing\.\reports\1691230813403/054f1c12-05af-4d66-bb87-35bea4bc51c6/report.html | log=file://C:\Users\lucas\OneDrive\Desktop\api-testing\unsplash-api-testing\.\reports\1691230813403/054f1c12-05af-4d66-bb87-35bea4bc51c6/test.log]
+[2023-08-05 10:20:23] [1] [INFO] [TestNG] Time taken by org.testng.internal.ExitCodeListener@70b67841: 0 ms
+[2023-08-05 10:20:23] [1] [INFO] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5aef36a9: 18 ms
+[2023-08-05 10:20:23] [1] [INFO] [TestNG] Time taken by org.testng.reporters.jq.Main@1912ba29: 31 ms
+[2023-08-05 10:20:23] [1] [INFO] [TestNG] Time taken by org.testng.reporters.FailedReporter@6965c32: 7 ms
+[2023-08-05 10:20:23] [1] [INFO] [TestNG] Time taken by org.testng.reporters.XMLReporter@5f6dd89c: 6 ms
+[2023-08-05 10:20:23] [1] [INFO] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2f4c83f1: 5 ms
+[2023-08-05 10:20:23] [1] [INFO] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@672e4658: 6 ms

@@ -3,12 +3,12 @@
 <suite thread-count="1" data-provider-thread-count="1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="1" name="Default test(failed)">
     <classes>
-      <class name="com.solvd.laba.carina.unsplash.APITests">
+      <class name="com.solvd.laba.carina.carinaDocsWebTests.navigationValidation">
         <methods>
-          <include name="testSearchTopics"/>
           <include name="onCarinaAfterMethod"/>
+          <include name="testValidateNavigationBarLinkColors"/>
         </methods>
-      </class> <!-- com.solvd.laba.carina.unsplash.APITests -->
+      </class> <!-- com.solvd.laba.carina.carinaDocsWebTests.navigationValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

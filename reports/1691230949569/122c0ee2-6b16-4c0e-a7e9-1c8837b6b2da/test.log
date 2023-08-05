@@ -1,0 +1,9 @@
+[2023-08-05 10:22:46] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-08-05 10:22:46] [1] [INFO] TEST [Default test - testLogoTakesUserToOverviewPage] STARTED at [05:22:46 2023-08-05]
+[2023-08-05 10:22:46] [1] [INFO] Starting driver session...
+[2023-08-05 10:22:48] [1] [INFO] Driver session started.
+[2023-08-05 10:22:48] [1] [INFO] INFO: opening url 'http://zebrunner.github.io/carina/'
+[2023-08-05 10:22:49] [1] [INFO] clicking logo image
+[2023-08-05 10:22:49] [1] [INFO] PASS: element 'overviewImage' is clicked.
+[2023-08-05 10:22:50] [1] [INFO] Getting current browser url : http://zebrunner.github.io/carina/
+[2023-08-05 10:22:50] [1] [INFO] TEST [Default test - testLogoTakesUserToOverviewPage] PASSED at [05:22:50 2023-08-05]

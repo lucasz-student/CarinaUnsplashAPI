@@ -1,0 +1,7 @@
+[2023-08-05 10:22:37] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-08-05 10:22:37] [1] [INFO] TEST [Default test - testCarinaSearchBarPlaceholderText] STARTED at [05:22:37 2023-08-05]
+[2023-08-05 10:22:37] [1] [INFO] Starting driver session...
+[2023-08-05 10:22:40] [1] [INFO] Driver session started.
+[2023-08-05 10:22:40] [1] [INFO] INFO: opening url 'http://zebrunner.github.io/carina/'
+[2023-08-05 10:22:40] [1] [INFO] Getting Carina Search Bar Placeholder Text : Search
+[2023-08-05 10:22:40] [1] [INFO] TEST [Default test - testCarinaSearchBarPlaceholderText] PASSED at [05:22:40 2023-08-05]

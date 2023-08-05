@@ -1,0 +1,62 @@
+[2023-08-05 09:55:22] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=http://zebrunner.github.io/carina/
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=firefox
+===============================================
+
+[2023-08-05 09:55:22] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2023-08-05 09:55:25] [1] [INFO] [TestNG] Running:
+  C:\Users\lucas\AppData\Local\Temp\testng-eclipse-2093505082\testng-customsuite.xml
+
+[2023-08-05 09:55:25] [1] [INFO] Set thread-count=1
+[2023-08-05 09:55:25] [1] [INFO] Set data-provider-thread-count=1
+[2023-08-05 09:55:25] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-08-05 09:55:25] [1] [INFO] [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+[2023-08-05 09:55:30] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-08-05 09:55:30] [1] [INFO] RESULT #1: TEST [Default test - testValidateHeaderIsSticky] PASS [log=file://C:\Users\lucas\OneDrive\Desktop\api-testing\unsplash-api-testing\.\reports\1691229322222/177b98e7-60e2-432a-bb51-b10f355a4856/test.log]
+[2023-08-05 09:55:30] [1] [INFO] [TestNG] Time taken by org.testng.internal.ExitCodeListener@19e67cc2: 0 ms
+[2023-08-05 09:55:30] [1] [INFO] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2cf6dd4d: 17 ms
+[2023-08-05 09:55:30] [1] [INFO] [TestNG] Time taken by org.testng.reporters.jq.Main@2fc7c36a: 30 ms
+[2023-08-05 09:55:30] [1] [INFO] [TestNG] Time taken by org.testng.reporters.FailedReporter@4a5dc126: 0 ms
+[2023-08-05 09:55:30] [1] [INFO] [TestNG] Time taken by org.testng.reporters.XMLReporter@174da9a0: 4 ms
+[2023-08-05 09:55:30] [1] [INFO] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@34986491: 3 ms
+[2023-08-05 09:55:30] [1] [INFO] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@313c3cb: 3 ms

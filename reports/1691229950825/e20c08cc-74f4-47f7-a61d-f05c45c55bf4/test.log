@@ -1,0 +1,12 @@
+[2023-08-05 10:05:53] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-08-05 10:05:53] [1] [INFO] TEST [Default test - testNavBarHiddenLinks] STARTED at [05:05:53 2023-08-05]
+[2023-08-05 10:05:53] [1] [INFO] Starting driver session...
+[2023-08-05 10:05:57] [1] [INFO] Driver session started.
+[2023-08-05 10:05:57] [1] [INFO] INFO: opening url 'http://zebrunner.github.io/carina/'
+[2023-08-05 10:05:57] [1] [INFO] Checking if hidden nav bar links are displayed
+[2023-08-05 10:05:57] [1] [INFO] Clicking on parent nav bar links
+[2023-08-05 10:05:58] [1] [INFO] PASS: element 'navBarParentOfHiddenLinks0' is clicked.
+[2023-08-05 10:05:59] [1] [INFO] PASS: element 'navBarParentOfHiddenLinks1' is clicked.
+[2023-08-05 10:06:00] [1] [INFO] PASS: element 'navBarParentOfHiddenLinks2' is clicked.
+[2023-08-05 10:06:00] [1] [INFO] Checking if hidden nav bar links are displayed
+[2023-08-05 10:06:00] [1] [INFO] TEST [Default test - testNavBarHiddenLinks] PASSED at [05:06:00 2023-08-05]
