@@ -2,3 +2,8 @@
 /.settings
 /target
 *.project
+/reports
+/test-output
+/Userslucaseclipse-workspace
+/test-output
+
