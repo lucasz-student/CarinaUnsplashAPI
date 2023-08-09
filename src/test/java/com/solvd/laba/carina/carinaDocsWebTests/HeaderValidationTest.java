@@ -62,6 +62,6 @@ public class HeaderValidationTest implements IAbstractTest {
 		Assert.assertTrue(overviewPage.isPageOpened(), "Page not opened");
 
 		overviewPage.scrollToBottomOfPage();
-		Assert.assertTrue(overviewPage.checkVisibilityOfHeader(), "Header is not visible");
+		Assert.assertTrue(overviewPage.checkVisibilityOfHeaderAfterSearch(), "Header is not visible");
 	}
 }

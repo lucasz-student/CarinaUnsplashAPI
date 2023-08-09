@@ -2,6 +2,7 @@ package com.solvd.laba.carina.carinaDocsWebTests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.solvd.laba.carina.demo.gui.carinaDocsPages.desktop.OverviewPage;
 import com.zebrunner.carina.core.IAbstractTest;
@@ -16,7 +17,8 @@ public class navigationValidation implements IAbstractTest {
 		overviewPage.open();
 		Assert.assertTrue(overviewPage.isPageOpened(), "Page not opened");
 		
-		Assert.assertEquals(overviewPage.getCarinaNavBarHeadingText(), "Carina");
+		SoftAssert softAssert = new SoftAssert();
+		softAssert.assertEquals(overviewPage.getCarinaNavBarHeadingText(), "Carina");
 		Assert.assertTrue(overviewPage.checkPresenceOfNavBarLinks(), "No Navigation bar links found");
 		Assert.assertTrue(overviewPage.checkOverviewLinkHighlighted(), "Overview link not highlighted");
 	}
@@ -39,8 +41,6 @@ public class navigationValidation implements IAbstractTest {
 		OverviewPage overviewPage = new OverviewPage(getDriver());
 		overviewPage.open();
 		Assert.assertTrue(overviewPage.isPageOpened(), "Page not opened");
-
-		
 		Assert.assertTrue(overviewPage.clickEveryNavLinkAndValidateColors(), "Some Links are not getting highlighted");
 	}
 }

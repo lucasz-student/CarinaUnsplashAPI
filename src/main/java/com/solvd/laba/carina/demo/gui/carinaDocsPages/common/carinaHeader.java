@@ -31,40 +31,20 @@ public class carinaHeader extends AbstractUIObject {
 	    super(driver, searchContext);
 	}
 
-	public ExtendedWebElement getCarinaTextSpan() {
-		return carinaTextSpan;
-	}
-
-	public void setCarinaTextSpan(ExtendedWebElement carinaTextSpan) {
-		this.carinaTextSpan = carinaTextSpan;
-	}
-
-	public ExtendedWebElement getSearchBar() {
-		return searchBar;
-	}
-
-	public void setSearchBar(ExtendedWebElement searchBar) {
-		this.searchBar = searchBar;
-	}
-
-	public ExtendedWebElement getGitHubLink() {
-		return gitHubLink;
-	}
-
-	public void setGitHubLink(ExtendedWebElement gitHubLink) {
-		this.gitHubLink = gitHubLink;
-	}
-	
-	public ExtendedWebElement getOverviewImage() {
-		return overviewImage;
-	}
-
-	public void setOverviewImage(ExtendedWebElement overviewImage) {
-		this.overviewImage = overviewImage;
-	}
-
 	public void clickOverViewImage() {
 		LOGGER.info("clicking logo image");
 		this.overviewImage.click();
+	}
+	
+	public String getTextSpanText() {
+		return carinaTextSpan.getText();
+	}
+	
+	public String getSearchBarPlaceHolder() {
+		return searchBar.getAttribute("placeholder");
+	}
+	
+	public String getGitHubLinkhref() {
+		return gitHubLink.getAttribute("href");
 	}
 }
